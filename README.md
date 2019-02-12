@@ -2,13 +2,14 @@
 Simple lines of C code that shows how a stack works.
 
 #include <stdio.h>
+
 int ele=0;
 long int cho;
 int count=0;
 
 int main(int argc, char const *argv[])
 {
-	long stack[5];
+long stack[5];
 	
 	printf("  =>Chose 1 to PUSH\n");
 	printf("  =>Chose 2 to POP            \n");
